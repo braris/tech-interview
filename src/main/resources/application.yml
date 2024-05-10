@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: tech-interview
+  datasource:
+    url: jdbc:h2:mem:tech-interview
+    username: sa
+    password: tech-interview
+    driverClassName: org.h2.Driver
+  jpa:
+    open-in-view: false
+  h2:
+    console:
+      enabled: true
+      path: /h2
+
+
