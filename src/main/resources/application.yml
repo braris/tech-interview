@@ -1,6 +1,8 @@
 spring:
   application:
     name: tech-interview
+#  profiles:
+#    active: db-gen
   datasource:
     url: jdbc:h2:mem:tech-interview
     username: sa
