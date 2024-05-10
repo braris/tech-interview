@@ -1,0 +1,5 @@
+// @no-log
+GET {{protocol}}{{host}}/users/5
+# Headers
+Accept: application/json
+Content-Type: application/json

@@ -1,0 +1,11 @@
+// @no-log
+POST {{protocol}}{{host}}/transfer
+# Headers
+Accept: application/json
+Content-Type: application/json
+
+{
+  "ibanFrom": "12345",
+  "ibanTo": "54321",
+  "amount": 1.5
+}
